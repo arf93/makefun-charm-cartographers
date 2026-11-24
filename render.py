@@ -315,7 +315,7 @@ PLACES = [
     ("The Gilded Lagoon",    (688, 712), (676, 742), icon_lagoon,    26),
     ("The Jolly Anchor Inn", (560, 628), (690, 640), icon_inn,       26),
     ("X Marks the Spot",     (560, 762), (560, 800), None,           28),
-    ("Kraken's Deep",        (895, 400), (895, 505), icon_kraken,    26),
+    ("Kraken's Deep",        (895, 400), (880, 505), icon_kraken,    26),
 ]
 
 
@@ -440,7 +440,7 @@ def build():
     halo_label(d, 600, 858, "Here be sea monsters —", hand(17))
     halo_label(d, 600, 880, "the serpent is friendly, mostly", hand(17))
     # kraken caption
-    halo_label(d, 895, 536, "Do NOT feed the Kraken", hand(18))
+    halo_label(d, 880, 536, "Do NOT feed the Kraken", hand(18))
     # dig here
     halo_label(d, 360, 806, "Dig here —", hand(17))
     halo_label(d, 360, 828, "mind the crabs", hand(17))
@@ -469,7 +469,7 @@ def build():
     halo_label(d, bx + 48, by + 30, "(or thereabouts)", hand(15))
 
     halo_label(d, 512, 196, "The Uncharted Sea", hand(22))
-    rot_label(img, "no actual treasure was harmed", 1002, 998, hand(14), -4)
+    rot_label(img, "no actual treasure was harmed", 885, 992, hand(14), -4)
 
     # ---- frame + title banner ----
     d.rectangle([12, 12, W - 12, H - 12], outline=INK, width=4)
